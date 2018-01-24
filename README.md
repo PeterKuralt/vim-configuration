@@ -1,4 +1,4 @@
-###### Configuration files for the personalised VIM environment.
+##### Configuration files for the personalised VIM environment.
 >  vimrc file inlcudes vundle and the following plugins:
 > 1. syntastic,
 > 2. ctrpvim, (allows ctrl+p for searching files)
@@ -11,4 +11,4 @@
 
 To install the plugins run :BundleInstall
 
-###### Put the color folder in the ~/.vim/colors/ folder.
+##### Put the color folder in the ~/.vim/colors/ folder.
