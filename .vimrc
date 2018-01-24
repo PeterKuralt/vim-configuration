@@ -1,3 +1,4 @@
+"setting vundle
 set nocompatible              " required
 filetype off                  " required
 
@@ -5,6 +6,7 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+"List of Plugins to install
 Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tmhedberg/SimpylFold'
@@ -35,7 +37,7 @@ au BufNewFile,BufRead *.js,*.html,*.css <here>:</here>
     \ set softtabstop=2 |
     \ set shiftwidth=2 |
 
-"Some general config
+"Some general config (encoding, syntax hightlighting, number setting etc.)
 set encoding=utf-8
 syntax on
 set ruler
@@ -49,6 +51,7 @@ set bg=dark
 
 "Setting colorcheme
 colorscheme monokai
+"Shortcuts
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
